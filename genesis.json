@@ -12,11 +12,7 @@
     "berlinBlock": 0,
     "londonBlock": 0
   },
-  "difficulty": "1",
-  "gasLimit": "8000000",
-  "alloc": {
-    "0xYOUR_ADMIN_ADDRESS_HERE": {
-      "balance": "1000000000000000000000"
-    }
-  }
+  "difficulty": "0x1",
+  "gasLimit": "0x8000000",
+  "alloc": {}
 }
