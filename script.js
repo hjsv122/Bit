@@ -119,4 +119,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     } catch (err) {
       console.error(err);
-      alert("
+      alert("❌ فشل في الاتصال بالخادم.");
+    }
+  };
+
+  updateUI();
+  draw();
+});
