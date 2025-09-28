@@ -1,18 +1,15 @@
 {
-  "config": {
-    "chainId": 2025,
-    "homesteadBlock": 0,
-    "eip150Block": 0,
-    "eip155Block": 0,
-    "eip158Block": 0,
-    "byzantiumBlock": 0,
-    "constantinopleBlock": 0,
-    "petersburgBlock": 0,
-    "istanbulBlock": 0,
-    "berlinBlock": 0,
-    "londonBlock": 0
+  "name": "flatdrive-server",
+  "version": "1.0.0",
+  "description": "خادم تحويل الأرباح باستخدام Gelato",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  "difficulty": "0x1",
-  "gasLimit": "0x8000000",
-  "alloc": {}
+  "dependencies": {
+    "@gelatonetwork/relay-sdk": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.6.0",
+    "express": "^4.18.2"
+  }
 }
